@@ -4,7 +4,7 @@ import { TurnTouch } from "../turn-touch/turn-touch";
 @Component({
   tag: "my-app",
   styleUrl: "my-app.scss",
-  shadow: true
+  shadow: false
 })
 export class MyApp {
   mock = false;
@@ -13,9 +13,7 @@ export class MyApp {
   @State() connected = false;
 
   connect = async () => {
-    const strip = (this.el.shadowRoot.querySelector(
-      "turn-touch"
-    ) as any) as TurnTouch;
+    const strip = (this.el.querySelector("turn-touch") as any) as TurnTouch;
     await strip.connect();
     this.connected = true;
     this.strip = strip;

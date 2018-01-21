@@ -2,15 +2,15 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.dbq2svj2.js",
-  "coreSsr": "app.iphbka2e.js",
-  "corePolyfilled": "app.fzwg2ofo.js",
+  "core": "app.5gplqva4.js",
+  "coreSsr": "app.sd4r6cxr.js",
+  "corePolyfilled": "app.9i3qvvmg.js",
   "components": {
     "my-app": {
-      "$": "ef6nqcxu"
+      "$": "l72huwe8"
     },
     "turn-touch": {
-      "$": "ef6nqcxu"
+      "$": "l72huwe8"
     }
   }
 }
