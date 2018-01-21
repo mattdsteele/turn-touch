@@ -6,66 +6,6 @@
 
 
 import {
-  BluetoothStrip as BluetoothStrip
-} from './components/bluetooth-strip/bluetooth-strip';
-
-declare global {
-  interface HTMLBluetoothStripElement extends BluetoothStrip, HTMLElement {
-  }
-  var HTMLBluetoothStripElement: {
-    prototype: HTMLBluetoothStripElement;
-    new (): HTMLBluetoothStripElement;
-  };
-  interface HTMLElementTagNameMap {
-    "bluetooth-strip": HTMLBluetoothStripElement;
-  }
-  interface ElementTagNameMap {
-    "bluetooth-strip": HTMLBluetoothStripElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      "bluetooth-strip": JSXElements.BluetoothStripAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface BluetoothStripAttributes extends HTMLAttributes {
-      
-    }
-  }
-}
-
-
-import {
-  MockBluetoothStrip as MockBluetoothStrip
-} from './components/bluetooth-strip/mock-bluetooth-strip';
-
-declare global {
-  interface HTMLMockBluetoothStripElement extends MockBluetoothStrip, HTMLElement {
-  }
-  var HTMLMockBluetoothStripElement: {
-    prototype: HTMLMockBluetoothStripElement;
-    new (): HTMLMockBluetoothStripElement;
-  };
-  interface HTMLElementTagNameMap {
-    "mock-bluetooth-strip": HTMLMockBluetoothStripElement;
-  }
-  interface ElementTagNameMap {
-    "mock-bluetooth-strip": HTMLMockBluetoothStripElement;
-  }
-  namespace JSX {
-    interface IntrinsicElements {
-      "mock-bluetooth-strip": JSXElements.MockBluetoothStripAttributes;
-    }
-  }
-  namespace JSXElements {
-    export interface MockBluetoothStripAttributes extends HTMLAttributes {
-      
-    }
-  }
-}
-
-
-import {
   MyApp as MyApp
 } from './components/my-app/my-app';
 
@@ -89,6 +29,36 @@ declare global {
   }
   namespace JSXElements {
     export interface MyAppAttributes extends HTMLAttributes {
+      
+    }
+  }
+}
+
+
+import {
+  TurnTouch as TurnTouch
+} from './components/turn-touch/turn-touch';
+
+declare global {
+  interface HTMLTurnTouchElement extends TurnTouch, HTMLElement {
+  }
+  var HTMLTurnTouchElement: {
+    prototype: HTMLTurnTouchElement;
+    new (): HTMLTurnTouchElement;
+  };
+  interface HTMLElementTagNameMap {
+    "turn-touch": HTMLTurnTouchElement;
+  }
+  interface ElementTagNameMap {
+    "turn-touch": HTMLTurnTouchElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      "turn-touch": JSXElements.TurnTouchAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface TurnTouchAttributes extends HTMLAttributes {
       
     }
   }
