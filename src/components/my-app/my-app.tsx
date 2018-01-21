@@ -25,7 +25,7 @@ export class MyApp {
       </nav>
     );
   }
-  @State() emittedEvents: number[] = [];
+  @State() emittedEvents: any[] = [];
   get events() {
     return (
       <ul>
@@ -38,7 +38,7 @@ export class MyApp {
 
   @Listen("buttonPress")
   handlePress(event: CustomEvent) {
-    this.emittedEvents = [event.detail.number, ...this.emittedEvents];
+    this.emittedEvents = [event.detail.button, ...this.emittedEvents];
   }
 
   render() {
