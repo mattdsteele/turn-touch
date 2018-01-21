@@ -6,6 +6,36 @@
 
 
 import {
+  MyApp as MyApp
+} from './components/my-app/my-app';
+
+declare global {
+  interface HTMLMyAppElement extends MyApp, HTMLElement {
+  }
+  var HTMLMyAppElement: {
+    prototype: HTMLMyAppElement;
+    new (): HTMLMyAppElement;
+  };
+  interface HTMLElementTagNameMap {
+    "my-app": HTMLMyAppElement;
+  }
+  interface ElementTagNameMap {
+    "my-app": HTMLMyAppElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      "my-app": JSXElements.MyAppAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface MyAppAttributes extends HTMLAttributes {
+      
+    }
+  }
+}
+
+
+import {
   TurnTouch as TurnTouch
 } from './components/turn-touch/turn-touch';
 
