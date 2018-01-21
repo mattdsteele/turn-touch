@@ -15,39 +15,10 @@ img {
   max-width: 100%;
 }
 
-input[type="color"] {
-  -webkit-appearance: default-button;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  color: white;
-  font-size: 18vw;
-  font-weight: 500;
-  margin: 0;
-  width: 100%;
-}
-
 button {
   font-size: 7vw;
   width: 100%;
   padding: 12px;
   margin-top: 10px;
   border: 1px solid black;
-}
-
-#color {
-  visibility: hidden;
-}
-.color-picker {
-  width: 100%;
-  margin: 0;
-  border: 1px solid black;
-  text-align: center;
-  font-size: 9vw;
-  h2 {
-    margin: 0;
-  }
 }
