@@ -1,0 +1,16 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "core": "app.dbq2svj2.js",
+  "coreSsr": "app.iphbka2e.js",
+  "corePolyfilled": "app.fzwg2ofo.js",
+  "components": {
+    "my-app": {
+      "$": "j4ulahgf"
+    },
+    "turn-touch": {
+      "$": "j4ulahgf"
+    }
+  }
+}
