@@ -10,6 +10,10 @@ nav {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+
+  h1 {
+    color: white;
+  }
 }
 img {
   max-width: 100%;
