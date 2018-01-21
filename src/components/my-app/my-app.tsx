@@ -46,7 +46,7 @@ export class MyApp {
   render() {
     return (
       <div>
-        {this.mock ? <mock-bluetooth-strip /> : <turn-touch />}
+        <turn-touch />
         {this.connected ? this.events : this.welcome}
       </div>
     );
